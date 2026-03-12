@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pokemon Finder | Project 2 | CGT 27208</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="header">
+    <img src="pokemon-logo.png" class="logo">
+
+<h1>Pokémon Finder</h1>
+
+</header>
+
+<div class="container">
+
+<p>Search for any Pokémon!</p>
+
+<div class="searchBox">
+<input id="pokemonInput" type="text" placeholder="Enter Pokémon name">
+<button onclick="getPokemon()">Search</button>
+<button onclick="randomPokemon()">Random</button>
+</div>
+
+<div id="pokemonCard" class="card"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
